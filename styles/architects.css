@@ -139,6 +139,24 @@ main {
 .some-facts p {
   max-width: 542px;
 }
+.fact-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-top: 100px;
+}
+.fact {
+  border: 1px solid #ff900e;
+  width: 240px;
+  height: 240px;
+  border-radius: 8px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.fact-number {
+  font-size: 45px;
+  font-weight: 600;
+}
 
 /* responsive section */
 @media screen and (max-width: 576px) {
