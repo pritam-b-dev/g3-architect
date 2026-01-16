@@ -130,6 +130,16 @@ main {
   max-width: 537px;
 }
 
+.some-facts h3 {
+  font-size: 45px;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+.some-facts p {
+  max-width: 542px;
+}
+
 /* responsive section */
 @media screen and (max-width: 576px) {
   .navbar,
